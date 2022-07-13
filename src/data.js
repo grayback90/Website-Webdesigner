@@ -49,3 +49,20 @@ export const projects = [
       skill: "HTML & CSS",
     },
   ];
+
+  export const testimonials = [
+    {
+      name: "Jesse Hicks",
+      company: "ZOOZLE",
+      image: "./jesse_hicks",
+      quote: 
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+    },
+    {
+      name: "Ruben Alvarez",
+      company: "DOOBLE.IO",
+      image: "./ruben_alvarez",
+      quote: 
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    },
+  ];
