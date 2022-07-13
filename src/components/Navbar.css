@@ -95,7 +95,7 @@ a.navbar_link_contact:hover {
     background-color: #374151; 
 }
 
-ArrowRightIcon.arrow_icon {
+svg.arrow_icon {
     margin-left: 0.25rem; 
     width: 1rem; 
     height: 1rem; 

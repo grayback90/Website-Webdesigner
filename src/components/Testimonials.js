@@ -1,6 +1,6 @@
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import React from "react";
-import { testimonials } from "../data";
+import { testimonials } from "./data";
 //CSS
 import "./Testimonials.css"
 

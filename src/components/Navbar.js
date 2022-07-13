@@ -27,7 +27,7 @@ function Navbar() {
               href="#contact"
               className="navbar_link_contact">
               Hire Me
-
+              <ArrowRightIcon className="arrow_icon" />
             </a>
           </div>
         </header>

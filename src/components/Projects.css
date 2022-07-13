@@ -1,0 +1,132 @@
+section.projects_section {
+    background-color: #111827; 
+    color: #9CA3AF; 
+}
+
+div.projects_container {
+    width: 100%; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem; 
+    text-align: center; 
+}    
+    
+@media (min-width: 1024px) { 
+    div.projects_container {
+        padding-left: 10rem;
+        padding-right: 10rem; 
+    }
+}
+
+div.projects_flex {
+    display: flex; 
+    margin-bottom: 5rem; 
+    flex-direction: column; 
+    width: 100%; 
+}
+
+svg.projects_codeicon {
+    display: inline-block; 
+    margin-bottom: 1rem; 
+    width: 2.5rem; 
+}
+
+h1.projects_h1 {
+    margin-bottom: 1rem; 
+    color: #ffffff; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 500; 
+}
+
+@media (min-width: 640px) { 
+    h1.projects_h1 {
+        font-size: 2.25rem;
+        line-height: 2.5rem; 
+    }
+}
+
+p.projects_text {
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 1.625; 
+}    
+    
+@media (min-width: 1024px) { 
+    p.projects_text {
+        width: 66.666667%; 
+    }
+}
+
+div.projects_flexcontainer {
+    display: flex; 
+    margin: -1rem; 
+    flex-wrap: wrap; 
+}
+
+a.projects_link {
+    padding: 1rem; 
+}
+
+@media (min-width: 640px) { 
+    a.projects_link {
+        width: 50%; 
+    }
+}
+
+div.projects_flex_image {
+    display: flex; 
+    position: relative; 
+}
+
+img.projects_image {
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+div.projects_subtitle {
+    position: relative; 
+    z-index: 10; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem; 
+    background-color: #111827; 
+    width: 100%; 
+    border-width: 4px; 
+    border-color: #1F2937; 
+    opacity: 0; 
+}
+
+div.projects_subtitle:hover {
+    opacity: 1; 
+}
+
+h2.projects_h2 {
+    margin-bottom: 0.25rem; 
+    color: #34D399; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    letter-spacing: 0.1em; 
+}
+
+h1.projects_title {
+    margin-bottom: 0.75rem; 
+    color: #ffffff; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 500; 
+}
+
+p.projects_description {
+    line-height: 1.625; 
+}

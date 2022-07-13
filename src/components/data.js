@@ -6,7 +6,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
+      image: "./pictures/projects_images/project_1.PNG",
       link: "https://reactbootcamp.com",
     },
     {
@@ -14,7 +14,7 @@ export const projects = [
       subtitle: "React and Python",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
+      image: "./pictures/projects_images/project_2.PNG",
       link: "https://reedbarger.com",
     },
     {
@@ -22,7 +22,7 @@ export const projects = [
       subtitle: "React and Firebase",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
+      image: "./pictures/projects_images/project_3.PNG",
       link: "https://jsbootcamp.com",
     },
     {
@@ -30,7 +30,7 @@ export const projects = [
       subtitle: "React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
+      image: "./pictures/projects_images/project_4.PNG",
       link: "https://pythonbootcamp.com",
     },
   ];

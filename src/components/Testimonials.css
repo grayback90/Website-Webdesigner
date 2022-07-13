@@ -7,7 +7,7 @@ div.testimonials_container {
     text-align: center; 
 }
 
-UserIcon.testimonials_usericon{
+svg.testimonials_usericon{
     display: inline-block; 
     margin-bottom: 1rem; 
     width: 2.5rem; 
@@ -53,7 +53,7 @@ div.testimonials_inner{
     border-radius: 0.25rem; 
 }
 
-TerminalIcon.testimonials_terminalicon {
+svg.testimonials_terminalicon {
     display: block; 
     margin-bottom: 1rem; 
     color: #6B7280; 
