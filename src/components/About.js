@@ -34,7 +34,7 @@ function About() {
               <img
                 className="coding"
                 alt="hero"
-                src="./coding.svg"
+                src="./pictures/website_images/coding.svg"
               />
             </div>
           </div>
