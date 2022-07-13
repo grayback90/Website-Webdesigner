@@ -1,0 +1,213 @@
+div.contact_container {
+    width: 100%; 
+    display: flex; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem; 
+    flex-wrap: wrap; 
+}
+
+@media (min-width: 640px) { 
+    div.contact_container {
+        flex-wrap: nowrap; 
+    }
+}
+
+div.contact_map {
+    display: flex; 
+    overflow: hidden; 
+    position: relative; 
+    padding: 2.5rem; 
+    background-color: #111827; 
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    border-radius: 0.5rem; 
+}
+
+@media (min-width: 640px) { 
+    div.contact_map {
+        margin-right: 2.5rem; 
+    }
+}
+
+@media (min-width: 768px) { 
+    div.contact_map {
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1024px) { 
+    div.contact_map {
+        /*width: 66.666667%; */
+    }
+}
+
+div.contact_outer_adress {
+    display: flex; 
+    position: relative; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+    background-color: #111827; 
+    flex-wrap: wrap; 
+    border-radius: 0.25rem; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
+
+div.contact_inner_adress {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+}
+    
+@media (min-width: 1024px) { 
+    div.contact_inner_adress {
+        width: 50%; 
+    }
+}
+
+h2.contact_h2 {
+    color: #ffffff; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 600; 
+    letter-spacing: 0.1em; 
+}
+
+p.contact_country {
+    margin-top: 0.25rem; 
+}
+
+div.contact_mail {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    margin-top: 1rem; 
+}
+    
+@media (min-width: 1024px) { 
+    div.contact_mail {
+        margin-top: 0; 
+        width: 50%; 
+    }
+}
+
+a.contact_mail_link {
+    color: #818CF8; 
+    line-height: 1.625; 
+}
+
+p.contact_phone_number {
+    line-height: 1.625; 
+}
+
+form.contact_form {
+    display: flex; 
+    margin-top: 2rem; 
+    flex-direction: column; 
+    width: 100%; 
+}
+    
+@media (min-width: 768px) { 
+    form.contact_form {
+        padding-top: 2rem;
+        padding-bottom: 2rem; 
+        margin-top: 0; 
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1024px) { 
+    form.contact_form {
+        width: 33.333333%; 
+    }
+}
+
+h2.contact_form_h2 {
+    margin-bottom: 0.25rem; 
+    color: #ffffff; 
+    font-size: 1.875rem;
+    line-height: 2.25rem; 
+    font-weight: 500; 
+}
+
+@media (min-width: 640px) { 
+    h2.contact_form_h2 {
+        font-size: 2.25rem;
+        line-height: 2.5rem; 
+    }
+}
+
+p.contact_hire_text {
+    margin-bottom: 1.25rem; 
+    line-height: 1.625; 
+}
+
+div.contact_outer_label {
+    position: relative; 
+    margin-bottom: 1rem; 
+}
+
+label.contact_label {
+    color: #9CA3AF; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    line-height: 1.75rem;     
+}
+
+input.contact_input {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    background-color: #1F2937; 
+    transition-property: background-color, border-color, color, fill, stroke; 
+    transition-duration: 200ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    color: #F3F4F6; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 2rem; 
+    width: 100%; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #374151; 
+    outline: 0; 
+}
+
+textarea.contact_input_message {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    background-color: #1F2937; 
+    transition-property: background-color, border-color, color, fill, stroke; 
+    transition-duration: 200ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    color: #F3F4F6; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    line-height: 1.5rem; 
+    width: 100%; 
+    height: 8rem; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-color: #374151; 
+    outline: 0; 
+    resize: none; 
+}
+
+button.contact_send_button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    background-color: #6366F1; 
+    color: #ffffff; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    border-radius: 0.25rem; 
+    border-width: 0; 
+}
+
+button.contact_send_button:hover {
+    background-color: #4F46E5; 
+}
