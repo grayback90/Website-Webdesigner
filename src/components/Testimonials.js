@@ -1,8 +1,8 @@
 import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import React from "react";
-import { testimonials } from "./data";
+import { testimonials } from "./data/data";
 //CSS
-import "./Testimonials.css"
+import "./css/Testimonials.css"
 
 function Testimonials() {
     return (

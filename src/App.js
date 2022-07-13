@@ -1,6 +1,6 @@
 import React from "react";
 //CSS
-import "./App.css"
+import "./components/css/App.css"
 //Components
 import About from "./components/About";
 import Contact from "./components/Contact";

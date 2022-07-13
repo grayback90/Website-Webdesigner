@@ -1,7 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 //CSS
-import "./Navbar.css"
+import "./css/Navbar.css"
 
 function Navbar() {
     return (

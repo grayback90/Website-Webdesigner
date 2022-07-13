@@ -1,6 +1,6 @@
 import React from "react";
 //CSS
-import "./About.css";
+import "./css/About.css";
 //Images
 import coding_logo from "./pictures/website_images/coding.svg";
 

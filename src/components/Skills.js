@@ -1,6 +1,8 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "./data";
+import { skills } from "./data/data";
+//CSS
+import "./css/Skills.css"
 
 function Skills() {
     return (
