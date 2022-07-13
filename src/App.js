@@ -1,4 +1,6 @@
 import React from "react";
+//CSS
+import "./App.css"
 //Components
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -10,7 +12,7 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <main>
+    <main className="app_background">
       <Navbar />
       <About />
       <Projects />
