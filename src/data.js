@@ -1,3 +1,5 @@
+import React from "react";
+
 export const projects = [
     {
       title: "React Reserve",
@@ -30,5 +32,20 @@ export const projects = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project-4.gif",
       link: "https://pythonbootcamp.com",
+    },
+  ];
+
+  export const skills = [
+    {
+      skill: "React",
+    },
+    {
+      skill: "Node.js",
+    },
+    {
+      skill: "Javascript",
+    },
+    {
+      skill: "HTML & CSS",
     },
   ];
