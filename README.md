@@ -1,6 +1,7 @@
 # My own portfolio website
 
 Will be hostet by Netlify or Github.
+* [Trello Board](https://trello.com/b/9csmm6yr/my-own-website)
 
 ## Important Websites
 
