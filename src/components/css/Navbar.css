@@ -10,8 +10,7 @@ header.navbar_background {
     }
 }
 
-div.navbar_container {
-    width: 100%; 
+div.navbar_container { 
     display: flex; 
     padding: 1.25rem; 
     flex-direction: column; 
