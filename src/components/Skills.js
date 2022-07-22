@@ -1,6 +1,6 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "./data/data";
+import { skills_left, skills_right } from "./data/data";
 //CSS
 import "./css/Skills.css"
 
@@ -19,17 +19,31 @@ function Skills() {
                 possimus est.
               </p>
             </div>
-            <div className="skills_flex">
-              {skills.map((skill) => (
-                <div key={skill.skill} className="skills_skill">
-                  <div className="skills_skillicon">
-                    <BadgeCheckIcon className="skills_badgecheckicon" />
-                    <span className="skills_skilltext">
-                      {skill.skill}
-                    </span>
+            <div className="skills_flex_container">
+              <div className="skills_flex_left">
+                {skills_left.map((skill_l) => (
+                  <div key={skill_l.skill} className="skills_skill">
+                    <div className="skills_skillicon">
+                      <BadgeCheckIcon className="skills_badgecheckicon" />
+                      <span className="skills_skilltext">
+                        {skill_l.skill}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+              <div className="skills_flex_right">
+                {skills_right.map((skill_r) => (
+                  <div key={skill_r.skill} className="skills_skill">
+                    <div className="skills_skillicon">
+                      <BadgeCheckIcon className="skills_badgecheckicon" />
+                      <span className="skills_skilltext">
+                        {skill_r.skill}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>

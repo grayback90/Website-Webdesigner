@@ -36,36 +36,23 @@ p.skills_textbase {
     line-height: 1.5rem; 
     line-height: 1.625; 
 }
-    
-@media (min-width: 1024px) { 
-    p.skills_textbase {
-        width: 75%; 
-    }
+
+div.skills_flex_container {
+    display: flex;  
 }
 
-@media (min-width: 1280px) { 
-    p.skills_textbase {
-        width: 50%; 
-    }    
-}
-
-div.skills_flex {
+div.skills_flex_left {
     display: flex; 
     margin-left: -0.5rem;
     margin-right: -0.5rem; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-@media (min-width: 640px) { 
-    div.skills_flex {
-        margin-bottom: 0.5rem; 
-    }
-}
-    
-@media (min-width: 1024px) { 
-    div.skills_flex {
-        width: 80%; 
-    }
+div.skills_flex_right {
+    display: flex; 
+    margin-left: -0.5rem;
+    margin-right: -0.5rem; 
+    flex-wrap: wrap;
 }
 
 div.skills_skill {

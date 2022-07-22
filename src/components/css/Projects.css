@@ -19,10 +19,8 @@ div.projects_container {
 }
 
 div.projects_flex {
-    display: flex; 
     margin-bottom: 5rem; 
-    flex-direction: column; 
-    width: 100%; 
+    text-align: center; 
 }
 
 svg.projects_codeicon {
@@ -52,16 +50,15 @@ p.projects_text {
     line-height: 1.625; 
 }    
     
-@media (min-width: 1024px) { 
+/*@media (min-width: 1024px) { 
     p.projects_text {
-        width: 66.666667%; 
+        width: 66.666667%;
     }
-}
+}*/
 
 div.projects_flexcontainer {
     display: flex; 
-    margin: -1rem; 
-    flex-wrap: wrap; 
+    margin: -1rem;
 }
 
 a.projects_link {

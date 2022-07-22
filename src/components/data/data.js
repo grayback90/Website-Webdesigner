@@ -35,7 +35,7 @@ export const projects = [
     },
   ];
 
-  export const skills = [
+  export const skills_left = [
     {
       skill: "React",
     },
@@ -47,6 +47,21 @@ export const projects = [
     },
     {
       skill: "HTML & CSS",
+    },
+  ];
+
+  export const skills_right = [
+    {
+      skill: "Visual Studio Code",
+    },
+    {
+      skill: "Git",
+    },
+    {
+      skill: "PHP",
+    },
+    {
+      skill: "Wordpress",
     },
   ];
 
